@@ -1,11 +1,7 @@
-# MTProxy v1.2
+# MTProxy v1.2 (Enhanced)
 Lightweight and easy to set up docker image for the MTProto proxy server.
 
-[![Docker Build Status](https://img.shields.io/docker/build/viers/mtproxy.svg)](https://hub.docker.com/r/viers/mtproxy/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/viers/mtproxy.svg)](https://hub.docker.com/r/viers/mtproxy/)
-[![MicroBadger Size](https://images.microbadger.com/badges/image/viers/mtproxy.svg)](https://microbadger.com/images/viers/mtproxy)
-
-Binary inside: [dc0c7f3de from 9 Oct 2019](https://github.com/TelegramMessenger/MTProxy/commit/dc0c7f3de40530053189c572936ae4fd1567269b)
+Binary inside: [MTProxy Patched](https://github.com/CloudPassenger/MTProxy)
 
 ### How to run:
 All you need is an installed docker. A server must be configured with the special json dictionary file, mounted as `/configuration.json`.
